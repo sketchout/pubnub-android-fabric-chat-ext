@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/tts_enabled" android:title="Enable Text-To-Speech"
+        android:checkable="true" android:orderInCategory="1" />
+
+    <item android:id="@+id/action_logout" android:title="Log out"
+        android:orderInCategory="1" />
+
+</menu>

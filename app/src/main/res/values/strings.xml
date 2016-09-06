@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PnFabricChat</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="com.mapbox.mapboxsdk.accessToken" translatable="false">YOUR_MAPBOX_TOKEN</string>
+    <string name="com.nuance.appKey" translatable="false">YOUR_NUANCE_APPKEY</string>
+    <string name="com.nuance.url" translatable="false">YOUR_NUANCE_URL</string>
+</resources>

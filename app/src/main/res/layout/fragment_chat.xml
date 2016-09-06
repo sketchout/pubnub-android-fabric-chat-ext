@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:rowCount="1"
+        android:columnCount="3"
+        android:id="@+id/relativeLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_message"
+            android:textSize="10sp"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/sender"
+            android:layout_gravity="fill_horizontal">
+            <requestFocus />
+        </EditText>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendButton"
+            android:onClick="publish" />
+
+        <Button android:text="\\o/"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:onClick="toggleReco"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <ListView
+        android:id="@+id/chat_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relativeLayout" />
+
+</RelativeLayout>
